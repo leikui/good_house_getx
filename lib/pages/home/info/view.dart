@@ -13,7 +13,7 @@ class InfoPage extends StatelessWidget {
       decoration: BoxDecoration(color: Color(0x08000000)),
       child: Column(
         children: [
-          if(controller.showTitle)Container(
+          if(!controller.showTitle)Container(
             margin: EdgeInsets.only(bottom: 10),
             decoration: BoxDecoration(color: Colors.white),
             alignment: Alignment.centerLeft,
